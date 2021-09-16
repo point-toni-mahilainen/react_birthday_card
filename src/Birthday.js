@@ -1,7 +1,7 @@
 import React from "react";
 import Confetti from "react-dom-confetti";
 import { css, injectGlobal } from "@emotion/css";
-import presentCard from "../src/img/present.PNG"
+import presentCard from "../src/img/present.jpg"
 
 class Birthday extends React.Component {
   state = {
