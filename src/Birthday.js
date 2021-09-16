@@ -44,7 +44,7 @@ class Birthday extends React.Component {
         <div className={presentContainer}>
           <Confetti active={this.state.confetti} config={config} />
           <button className={presentButton} onClick={this.openPresent}>
-            {this.state.showPicture ? <img className={presentCardStyle} src={presentCard} /> : this.state.item}
+            {this.state.showPicture ? <img className={presentCardStyle} src={presentCard} alt="Card" /> : this.state.item}
           </button>
         </div>
       </div>
