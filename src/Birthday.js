@@ -8,7 +8,7 @@ class Birthday extends React.Component {
     item: "🎁",
     showPicture: false,
     confetti: false,
-    hint: "(don't forget to open your present!)"
+    hint: "Avaappa lahja painamalla pakettia :)"
   };
 
   openPresent = () => {
@@ -35,7 +35,7 @@ class Birthday extends React.Component {
       <div>
         <div className={titleContainer}>
           <div style={style} className={title}>
-            Happy Birthday!
+            Hyvää synttäriä!
           </div>
           <div style={style} className={hint}>
             {this.state.hint}
